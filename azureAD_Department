@@ -1,0 +1,2 @@
+Connect-AzureAD
+get-azureaduser -all $true | where-object {$_.department -like "information systems"}
